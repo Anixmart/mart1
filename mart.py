@@ -442,7 +442,7 @@ def msf():
     os.system("clear")
     dev()
 def rou():
-    os.system("https://github.com/threat9/routersploit")
+    os.system("git clone https://github.com/threat9/routersploit")
     os.system("clear")
     dev()
 def phone():
