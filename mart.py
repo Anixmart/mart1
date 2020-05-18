@@ -419,7 +419,7 @@ def dev():
       elif c==5:
         hack()
       elif c==6:
-        adb()
+        hack()
       elif c==7:
         os.system("clear")
 
@@ -442,7 +442,7 @@ def msf():
     os.system("clear")
     dev()
 def rou():
-    os.system("git clone https://github.com/threat9/routersploit")
+    os.system("https://github.com/threat9/routersploit")
     os.system("clear")
     dev()
 def phone():
