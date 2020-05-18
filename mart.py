@@ -356,8 +356,8 @@ def wh():
          hammer()
        elif mart==8:
          menu()
-       elif mar==9:
-         os.system("clear")
+       elif mart==9:
+        os.system("clear")
          exit()
        else:
          print("no exit")
@@ -366,7 +366,7 @@ def wh():
      except ValueError:
          print("Enter Number")
 def sql():
-    os.system("git clone https://github.com/sqlmapproject/ssqlmap.git")
+    os.system("git clone https://github.com/sqlmapproject/sqlmap.git")
     os.system("clear")
     wh()
 def wpscan():
