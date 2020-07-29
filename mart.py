@@ -419,7 +419,7 @@ def dev():
       elif c==5:
         hack()
       elif c==6:
-        hack()
+        adb()
       elif c==7:
         os.system("clear")
 
