@@ -437,7 +437,7 @@ def msf():
     os.system("apt install curl")
     os.system("curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh")
     os.system("chmod 777 metasploit.sh")
-    os.system(./metasploit.sh")
+    os.system("bash metasploit.sh")
     os.system("msfconsole")
     os.system("clear")
     dev()
