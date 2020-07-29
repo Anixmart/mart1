@@ -434,15 +434,15 @@ def dev():
     except ValueError:
         print("Enter Number")
 def msf():
-    os.system("pkg install curl")
-    os.system("curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz")
-    os.system("gunzip metasploit_5.0.65-1_all.deb.gz")
-    os.system("dpkg -i metasploit_5.0.65-1_all.deb")
-    os.system("apt 0-f install")
+    os.system("apt install curl")
+    os.system("curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh")
+    os.system("chmod 777 metasploit.sh")
+    os.system(./metasploit.sh")
+    os.system("msfconsole")
     os.system("clear")
     dev()
 def rou():
-    os.system("https://github.com/threat9/routersploit")
+    os.system("git clone https://github.com/threat9/routersploit")
     os.system("clear")
     dev()
 def phone():
