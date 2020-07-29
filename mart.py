@@ -435,6 +435,7 @@ def dev():
         print("Enter Number")
 def msf():
     os.system("apt install curl")
+    os.system("pkg install ruby -y")
     os.system("curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh")
     os.system("chmod 777 metasploit.sh")
     os.system("bash metasploit.sh")
